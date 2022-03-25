@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders on Detail 1`] = `
+<div
+  className="class-card"
+>
+  <h3>
+    Kelas-
+    1
+  </h3>
+  <p>
+    
+  </p>
+  <div>
+    <h3>
+      Mentor-
+      1
+      -
+      
+    </h3>
+    <p>
+      
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Renders on Home 1`] = `
+<div
+  className="class-card"
+>
+  <h3>
+    Kelas-
+    1
+  </h3>
+  <p>
+    
+  </p>
+  <button
+    type="button"
+  >
+    <a
+      href="/detail/1"
+      onClick={[Function]}
+    >
+      Details
+    </a>
+  </button>
+</div>
+`;
