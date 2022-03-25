@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders detail to match snapshot 1`] = `
+<div
+  className="detail"
+>
+  <h1>
+    Class Detail
+  </h1>
+  <form
+    className="register-form"
+    onSubmit={[Function]}
+  >
+    <h3>
+      Register User
+    </h3>
+    <div
+      className="form-data"
+    >
+      <input
+        name="attendeeFullName"
+        onChange={[Function]}
+        placeholder="Name"
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-data"
+    >
+      <input
+        name="attendeeEmail"
+        onChange={[Function]}
+        placeholder="Email"
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+    <input
+      className="btn btn-primary dashboard-button"
+      type="submit"
+      value="Enroll"
+    />
+  </form>
+</div>
+`;

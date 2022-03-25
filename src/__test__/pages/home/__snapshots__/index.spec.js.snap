@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders home to match snapshot 1`] = `
+<div
+  className="home"
+>
+  <h1>
+    My Learning App
+  </h1>
+  <div
+    className="available-class"
+  />
+</div>
+`;

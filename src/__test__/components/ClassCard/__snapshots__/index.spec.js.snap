@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Renders on Detail 1`] = `
+exports[`Renders match snapshot on Detail 1`] = `
 <div
   className="class-card"
 >
@@ -25,7 +25,7 @@ exports[`Renders on Detail 1`] = `
 </div>
 `;
 
-exports[`Renders on Home 1`] = `
+exports[`Renders match snapshot on Home 1`] = `
 <div
   className="class-card"
 >

@@ -20,7 +20,7 @@ const detailProps = {
   description: '',
 };
 
-it('Renders on Home', () => {
+it('Renders match snapshot on Home', () => {
   const tree = renderer
     .create(
       <MemoryRouter>
@@ -31,7 +31,7 @@ it('Renders on Home', () => {
   expect(tree).toMatchSnapshot();
 });
 
-it('Renders on Detail', () => {
+it('Renders match snapshot on Detail', () => {
   const tree = renderer
     .create(
       <MemoryRouter>
