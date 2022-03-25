@@ -29,3 +29,23 @@ code {
   border-radius: 8px;
   padding: 8px;
 }
+
+.register-form {
+  width: 200px;
+  border: 1px solid;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 24px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-data {
+  display: flex;
+}
+
+.form-data input {
+  width: 100%;
+}

@@ -20,7 +20,7 @@ function ClassCard({
       )}
       {detail &&
         mentors?.map((item) => (
-          <div>
+          <div key={item.id}>
             <h3>
               Mentor-{item.id}-{item.name}
             </h3>
