@@ -10,4 +10,14 @@ export const getAvailableClass = async () => {
   }
 };
 
+export const getDetailClass = async (id: string) => {
+  try {
+    const res = await fetch(`${baseURL}/learning-class?id=${id}`);
+    const data = await res.json();
+    return data;
+  } catch (err) {
+    return null;
+  }
+};
+
 export default baseURL;
